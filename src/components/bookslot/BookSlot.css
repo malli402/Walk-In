@@ -1,0 +1,244 @@
+/* .book-slot {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .slot-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  
+  .slot {
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .slot:hover {
+    transform: scale(1.05);
+    color: #c61919;
+  }
+  
+  .slot-status {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: #666;
+  }
+  
+  .slot-form {
+    margin-top: 20px;
+    padding: 4px;
+    border: 1px solid #f7f1f1;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 800px; /* Set a fixed width for the form 
+    margin-left: auto;
+    margin-right: auto; /* Horizontally center the form 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slot-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .slot-form input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 3px solid #f1eaea;
+  }
+  
+  .slot-form button {
+    padding: 10px 20px;
+    background-color: #1c4db7;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .slot-form button:hover {
+    background-color: #c61919;
+  } */
+  
+  /* Container for the slot booking */
+/* .book-slot {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f9fc;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  align-items: center;
+}
+
+/* Title styling */
+.book-slot h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Slot list container
+.slot-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual slot styling
+.slot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for slots 
+.slot:hover {
+  background-color: #e8f4ff;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Time text styling 
+.slot span:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Status text styling 
+.slot-status {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Responsive design for smaller screens 
+@media (max-width: 768px) {
+  .book-slot {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .slot {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .slot span {
+    margin-bottom: 5px;
+  }
+} */
+/* .book-slot {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.book-slot h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.book-slot ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-slot li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.book-slot strong {
+  color: #555; */
+
+
+
+
+
+
+
+
+
+
+   .book-slot {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .book-slot h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .book-slot ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-slot li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .book-slot strong {
+    color: #555;
+  }
+  
+  /* /* Style for the button container  */
+  .book-slot-button-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* /* Style for the button  */
+  .book-slot-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-slot-button:hover {
+    background-color: #0056b3;
+  }
+   
+  
+  

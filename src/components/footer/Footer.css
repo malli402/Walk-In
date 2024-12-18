@@ -1,0 +1,44 @@
+/* src/components/Footer.css */
+/* .footer {
+    background-color: #333; /* Dark background color for the footer 
+    color: #ffffff; /* White text color 
+    text-align: center; /* Center-aligns the text 
+    padding: 1rem; /* Adds padding for spacing 
+    font-size: 0.9rem; /* Slightly smaller font size 
+    position: relative; /* Ensures it appears at the bottom without being fixed 
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0; /* Removes default margin on paragraph 
+  } */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    margin-top: auto; /* Allows the footer to stay at the bottom */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .logo {
+    margin-top: 10px;
+  }
+  
+  .logo a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .logo a:hover {
+    color: #ff7f50; /* Change to any hover color you like */
+  }
+  

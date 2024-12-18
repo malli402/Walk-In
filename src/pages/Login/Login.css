@@ -1,0 +1,119 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* .login-data {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-right: 5rem; 
+  }*/
+  .login-data{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .login-data h1 {
+    font-size: 5rem;
+    color: #333;
+  }
+  
+  .login-data p{
+    font-size: 2rem;
+    font-style: italic;
+    color: red;
+  }
+  
+  .login-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .extra-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .forgot-password-link,
+  .create-account-btn {
+    color: #007bff;
+    background: none;
+    border: none;
+    margin: 10px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  
+  .forgot-password-link:hover,
+  .create-account-btn:hover {
+    color: #0056b3;
+  }
+  
+  @media (min-width: 768px) {
+    /* Styles for larger screens */
+    .login-container {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+  
+    .login-box {
+      padding: 30px;
+      max-width: 450px;
+    }
+  
+    .login-data h1 {
+      font-size: 2.5em;
+    }
+  
+    .login-data p {
+      font-size: 1.2em;
+    }
+  }

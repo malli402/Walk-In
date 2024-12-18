@@ -1,0 +1,120 @@
+/* src/components/Navbar.css */
+/* .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #0b0a0a;
+
+  }
+  
+  .navbar a {
+    color: #ffffff; /* White color for the text 
+    text-decoration: none; /* Removes underline from links 
+    font-size: 1.1rem; /* Slightly larger font size 
+    font-weight: 500; /* Medium weight for the text 
+    transition: color 0.3s ease; /* Smooth color transition for hover effect 
+  }
+  
+  .navbar a:hover {
+    color: #ff9900; /* Change color on hover 
+  }
+  
+  @media (max-width: 768px) {
+    /* Mobile responsiveness 
+    .navbar {
+      flex-direction: column; /* Stack links vertically on smaller screens 
+      align-items: center;
+    }
+  } */
+  /* .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #333;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Adjust as needed 
+    width: auto;
+    margin-right: 20px; /* Adds space between logo and links 
+  }
+  
+  .navbar-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 5rem;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  } */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101111;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo {
+    flex: 1; /* Pushes the logo to the left */
+  }
+  
+  .logo-image {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-links {
+    flex: 2; /* Centers the links */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+  
+ .navbar-links a:hover {
+  color: #f39c12; /* Change to a highlight color of your choice */
+  border-bottom: 2px solid #f39c12; /* Add underline effect */
+}
+  
+  .navbar-actions {
+    flex: 1; /* Pushes actions (login/logout) to the right */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login-btn, .logout-btn {
+    background-color: #f9f9f9;
+    color: #0073e6;
+    border: 1px solid #0073e6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-btn:hover, .logout-btn:hover {
+    background-color: #0073e6;
+    color: white;
+  }
+ 
